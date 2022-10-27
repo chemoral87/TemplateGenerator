@@ -1,0 +1,23 @@
+Nombre de la tabla $nombretabla
+Este es el modelo de datos contiene $DataModel.Rows.Count columnas
+Las columnas son las siguientes:
+#foreach ( $element in $DataModel.Columns)
+    Columnas: $element  $velocityCount
+#end
+
+$DataModel.Rows
+$DataModel.Rows.Count
+#foreach ( $element in $DataModel.Rows)
+Nombre  :                  $element.column_name 
+Ordinal                    $element.ordinal_position
+
+null?                      $element.is_nullable
+type                       $element.data_type
+charac                     $element.character_maximum_length
+precision                  $element.numeric_precision
+scale                      $element.numeric_scale
+column_key                 $element.column_key
+---------------------------------------------------------------
+#end
+
+Listo toda la informacion

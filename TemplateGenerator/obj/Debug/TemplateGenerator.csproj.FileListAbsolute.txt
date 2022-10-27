@@ -1,0 +1,129 @@
+C:\Documents and Settings\SMORALES\My Documents\Visual Studio 2010\Projects\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.exe
+C:\Documents and Settings\SMORALES\My Documents\Visual Studio 2010\Projects\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.pdb
+C:\Documents and Settings\SMORALES\My Documents\Visual Studio 2010\Projects\TemplateGenerator\TemplateGenerator\bin\Debug\TemplateGenerator.exe
+C:\Documents and Settings\SMORALES\My Documents\Visual Studio 2010\Projects\TemplateGenerator\TemplateGenerator\bin\Debug\TemplateGenerator.pdb
+C:\Documents and Settings\SMORALES\My Documents\Visual Studio 2010\Projects\TemplateGenerator\TemplateGenerator\bin\Debug\NVelocity.dll
+C:\Documents and Settings\SMORALES\My Documents\Visual Studio 2010\Projects\TemplateGenerator\TemplateGenerator\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\SMORALES\My Documents\Visual Studio 2010\Projects\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.Form1.resources
+C:\Documents and Settings\SMORALES\My Documents\Visual Studio 2010\Projects\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.Properties.Resources.resources
+C:\Documents and Settings\SMORALES\My Documents\Visual Studio 2010\Projects\TemplateGenerator\TemplateGenerator\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\SMORALES\My Documents\Visual Studio 2010\Projects\TemplateGenerator\TemplateGenerator\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\SMORALES\My Documents\Dropbox\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.exe
+C:\Documents and Settings\SMORALES\My Documents\Dropbox\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.pdb
+D:\Program Files\Dropbox\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.exe
+D:\Program Files\Dropbox\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.pdb
+D:\Program Files\Dropbox\TemplateGenerator\TemplateGenerator\bin\Debug\TemplateGenerator.exe
+D:\Program Files\Dropbox\TemplateGenerator\TemplateGenerator\bin\Debug\TemplateGenerator.pdb
+D:\Program Files\Dropbox\TemplateGenerator\TemplateGenerator\bin\Debug\NVelocity.dll
+D:\Program Files\Dropbox\TemplateGenerator\TemplateGenerator\obj\Debug\ResolveAssemblyReference.cache
+D:\Program Files\Dropbox\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.Form1.resources
+D:\Program Files\Dropbox\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.Properties.Resources.resources
+D:\Program Files\Dropbox\TemplateGenerator\TemplateGenerator\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\Program Files\Dropbox\TemplateGenerator\TemplateGenerator\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\SMORALES\My Documents\Dropbox\TemplateGenerator\TemplateGenerator\bin\Debug\TemplateGenerator.exe
+C:\Documents and Settings\SMORALES\My Documents\Dropbox\TemplateGenerator\TemplateGenerator\bin\Debug\TemplateGenerator.pdb
+C:\Documents and Settings\SMORALES\My Documents\Dropbox\TemplateGenerator\TemplateGenerator\bin\Debug\NVelocity.dll
+C:\Documents and Settings\SMORALES\My Documents\Dropbox\TemplateGenerator\TemplateGenerator\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\SMORALES\My Documents\Dropbox\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.Form1.resources
+C:\Documents and Settings\SMORALES\My Documents\Dropbox\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.Properties.Resources.resources
+C:\Documents and Settings\SMORALES\My Documents\Dropbox\TemplateGenerator\TemplateGenerator\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\SMORALES\My Documents\Dropbox\TemplateGenerator\TemplateGenerator\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\smorales\Dropbox\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.exe
+C:\Users\smorales\Dropbox\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.pdb
+C:\Users\smorales\Dropbox\TemplateGenerator\TemplateGenerator\bin\Debug\TemplateGenerator.exe
+C:\Users\smorales\Dropbox\TemplateGenerator\TemplateGenerator\bin\Debug\TemplateGenerator.pdb
+C:\Users\smorales\Dropbox\TemplateGenerator\TemplateGenerator\bin\Debug\NVelocity.dll
+C:\Users\smorales\Dropbox\TemplateGenerator\TemplateGenerator\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\smorales\Dropbox\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.Form1.resources
+C:\Users\smorales\Dropbox\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.Properties.Resources.resources
+C:\Users\smorales\Dropbox\TemplateGenerator\TemplateGenerator\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\smorales\Dropbox\TemplateGenerator\TemplateGenerator\obj\Debug\ResGen.read.1.tlog
+C:\Users\smorales\Dropbox\TemplateGenerator\TemplateGenerator\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\smorales\Dropbox\TemplateGenerator\TemplateGenerator\obj\Debug\ResGen.write.1.tlog
+E:\Dropbox\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.exe
+E:\Dropbox\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.pdb
+E:\Dropbox\TemplateGenerator\TemplateGenerator\bin\Debug\TemplateGenerator.exe
+E:\Dropbox\TemplateGenerator\TemplateGenerator\bin\Debug\TemplateGenerator.pdb
+E:\Dropbox\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.Form1.resources
+E:\Dropbox\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.Properties.Resources.resources
+E:\Dropbox\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.csprojResolveAssemblyReference.cache
+E:\Dropbox\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.csproj.GenerateResource.Cache
+E:\Dropbox\TemplateGenerator\TemplateGenerator\bin\Debug\TemplateGenerator.exe.config
+B:\Dropbox\TemplateGenerator\TemplateGenerator\bin\Debug\TemplateGenerator.exe
+B:\Dropbox\TemplateGenerator\TemplateGenerator\bin\Debug\TemplateGenerator.pdb
+B:\Dropbox\TemplateGenerator\TemplateGenerator\obj\Debug\ResolveAssemblyReference.cache
+B:\Dropbox\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.Form1.resources
+B:\Dropbox\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.Properties.Resources.resources
+B:\Dropbox\TemplateGenerator\TemplateGenerator\obj\Debug\ResGen.read.1.tlog
+B:\Dropbox\TemplateGenerator\TemplateGenerator\obj\Debug\ResGen.write.1.tlog
+B:\Dropbox\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.exe
+B:\Dropbox\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.pdb
+B:\Dropbox\TemplateGenerator\TemplateGenerator\bin\Debug\NVelocity.dll
+B:\Dropbox\TemplateGenerator\TemplateGenerator\bin\Debug\NVelocity.pdb
+B:\Dropbox\TemplateGenerator\TemplateGenerator\bin\Debug\NVelocity.xml
+B:\Dropbox\TemplateGenerator\TemplateGenerator\bin\Debug\TemplateGenerator.exe.config
+B:\Dropbox\TemplateGenerator\TemplateGenerator\obj\Debug\GenerateResource.read.1.tlog
+B:\Dropbox\TemplateGenerator\TemplateGenerator\obj\Debug\GenerateResource.write.1.tlog
+B:\Dropbox\TemplateGenerator\TemplateGenerator\bin\Debug\NVelocityTemplateEngine.dll
+E:\Dropbox\TemplateGenerator\TemplateGenerator\bin\Debug\NVelocity.pdb
+E:\Dropbox\TemplateGenerator\TemplateGenerator\bin\Debug\NVelocity.xml
+D:\Dropbox\TemplateGenerator\TemplateGenerator\bin\Debug\TemplateGenerator.exe.config
+D:\Dropbox\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.exe
+D:\Dropbox\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.pdb
+D:\Dropbox\TemplateGenerator\TemplateGenerator\bin\Debug\TemplateGenerator.exe
+D:\Dropbox\TemplateGenerator\TemplateGenerator\bin\Debug\TemplateGenerator.pdb
+D:\Dropbox\TemplateGenerator\TemplateGenerator\bin\Debug\NVelocity.dll
+D:\Dropbox\TemplateGenerator\TemplateGenerator\bin\Debug\NVelocityTemplateEngine.dll
+D:\Dropbox\TemplateGenerator\TemplateGenerator\bin\Debug\NVelocity.pdb
+D:\Dropbox\TemplateGenerator\TemplateGenerator\bin\Debug\NVelocity.xml
+D:\Dropbox\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.csprojResolveAssemblyReference.cache
+D:\Dropbox\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.Form1.resources
+D:\Dropbox\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.Properties.Resources.resources
+D:\Dropbox\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.csproj.GenerateResource.Cache
+E:\Dropbox\DotNet\TemplateGenerator\TemplateGenerator\bin\Debug\TemplateGenerator.exe.config
+E:\Dropbox\DotNet\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.exe
+E:\Dropbox\DotNet\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.pdb
+E:\Dropbox\DotNet\TemplateGenerator\TemplateGenerator\bin\Debug\TemplateGenerator.exe
+E:\Dropbox\DotNet\TemplateGenerator\TemplateGenerator\bin\Debug\TemplateGenerator.pdb
+E:\Dropbox\DotNet\TemplateGenerator\TemplateGenerator\bin\Debug\NVelocity.pdb
+E:\Dropbox\DotNet\TemplateGenerator\TemplateGenerator\bin\Debug\NVelocity.xml
+E:\Dropbox\DotNet\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.csprojResolveAssemblyReference.cache
+E:\Dropbox\DotNet\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.Form1.resources
+E:\Dropbox\DotNet\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.Properties.Resources.resources
+E:\Dropbox\DotNet\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.csproj.GenerateResource.Cache
+D:\Dropbox\DotNet\TemplateGenerator\TemplateGenerator\bin\Debug\TemplateGenerator.exe.config
+D:\Dropbox\DotNet\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.exe
+D:\Dropbox\DotNet\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.pdb
+D:\Dropbox\DotNet\TemplateGenerator\TemplateGenerator\bin\Debug\TemplateGenerator.exe
+D:\Dropbox\DotNet\TemplateGenerator\TemplateGenerator\bin\Debug\TemplateGenerator.pdb
+D:\Dropbox\DotNet\TemplateGenerator\TemplateGenerator\bin\Debug\NVelocity.pdb
+D:\Dropbox\DotNet\TemplateGenerator\TemplateGenerator\bin\Debug\NVelocity.xml
+D:\Dropbox\DotNet\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.csprojResolveAssemblyReference.cache
+D:\Dropbox\DotNet\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.Form1.resources
+D:\Dropbox\DotNet\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.Properties.Resources.resources
+D:\Dropbox\DotNet\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.csproj.GenerateResource.Cache
+E:\respaldo\TemplateGenerator\TemplateGenerator\bin\Debug\TemplateGenerator.exe.config
+E:\respaldo\TemplateGenerator\TemplateGenerator\bin\Debug\TemplateGenerator.exe
+E:\respaldo\TemplateGenerator\TemplateGenerator\bin\Debug\TemplateGenerator.pdb
+E:\respaldo\TemplateGenerator\TemplateGenerator\bin\Debug\NVelocity.pdb
+E:\respaldo\TemplateGenerator\TemplateGenerator\bin\Debug\NVelocity.xml
+E:\respaldo\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.csprojResolveAssemblyReference.cache
+E:\respaldo\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.Form1.resources
+E:\respaldo\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.Properties.Resources.resources
+E:\respaldo\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.csproj.GenerateResource.cache
+E:\respaldo\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.csproj.CoreCompileInputs.cache
+E:\respaldo\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.csproj.CopyComplete
+E:\respaldo\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.exe
+E:\respaldo\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.pdb
+C:\Users\chemo\source\repos\TemplateGenerator\TemplateGenerator\bin\Debug\TemplateGenerator.exe.config
+C:\Users\chemo\source\repos\TemplateGenerator\TemplateGenerator\bin\Debug\TemplateGenerator.exe
+C:\Users\chemo\source\repos\TemplateGenerator\TemplateGenerator\bin\Debug\TemplateGenerator.pdb
+C:\Users\chemo\source\repos\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.csproj.AssemblyReference.cache
+C:\Users\chemo\source\repos\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.Form1.resources
+C:\Users\chemo\source\repos\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.Properties.Resources.resources
+C:\Users\chemo\source\repos\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.csproj.GenerateResource.cache
+C:\Users\chemo\source\repos\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.csproj.CoreCompileInputs.cache
+C:\Users\chemo\source\repos\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.csproj.CopyComplete
+C:\Users\chemo\source\repos\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.exe
+C:\Users\chemo\source\repos\TemplateGenerator\TemplateGenerator\obj\Debug\TemplateGenerator.pdb
+C:\Users\chemo\source\repos\TemplateGenerator\TemplateGenerator\bin\Debug\MySql.Data.dll

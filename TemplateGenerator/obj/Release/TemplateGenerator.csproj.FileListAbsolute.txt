@@ -1,0 +1,5 @@
+D:\Program Files\Dropbox\TemplateGenerator\TemplateGenerator\obj\Release\ResolveAssemblyReference.cache
+D:\Program Files\Dropbox\TemplateGenerator\TemplateGenerator\obj\Release\TemplateGenerator.Form1.resources
+D:\Program Files\Dropbox\TemplateGenerator\TemplateGenerator\obj\Release\TemplateGenerator.Properties.Resources.resources
+D:\Program Files\Dropbox\TemplateGenerator\TemplateGenerator\obj\Release\GenerateResource-ResGen.read.1.tlog
+D:\Program Files\Dropbox\TemplateGenerator\TemplateGenerator\obj\Release\GenerateResource-ResGen.write.1.tlog

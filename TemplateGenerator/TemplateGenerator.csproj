@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9372EACE-DC8F-4786-BE7E-1E3B805F67C4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TemplateGenerator</RootNamespace>
+    <AssemblyName>TemplateGenerator</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="MySql.Data, Version=6.7.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.6.7.9\lib\net40\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="NVelocity, Version=0.4.2.8580, Culture=neutral, PublicKeyToken=44382d1b57473eda">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\proyectos\HtmlTemplating\lib\NVelocity.dll</HintPath>
+    </Reference>
+    <Reference Include="NVelocityTemplateEngine, Version=1.0.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\proyectos\TemplateGenerator\TemplateGenerator\bin\Debug\NVelocityTemplateEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InternalErrorException.cs" />
+    <Compile Include="InteropUtil.cs" />
+    <Compile Include="JSMin.cs" />
+    <Compile Include="MyMin.cs" />
+    <Compile Include="OpenFileOrFolderDialog.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Util.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="obj\Debug\TemplateGenerator.Form1.resources" />
+    <EmbeddedResource Include="obj\Debug\TemplateGenerator.Properties.Resources.resources" />
+    <EmbeddedResource Include="obj\Release\TemplateGenerator.Form1.resources" />
+    <EmbeddedResource Include="obj\Release\TemplateGenerator.Properties.Resources.resources" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="bin\Debug\Templates\mssql\1sep2013\oTABLENAME.vm" />
+    <None Include="bin\Debug\Templates\mssql\3Abr2013\oTABLENAME.vm" />
+    <None Include="bin\Debug\Templates\mssql\3Abr2013\uiTABLENAME.php" />
+    <None Include="bin\Debug\Templates\mssql\oTABLENAME.vm" />
+    <None Include="bin\Debug\Templates\mysql\6Ago2012\oTABLENAME.vm" />
+    <None Include="bin\Debug\Templates\mysql\6Ago2012\pgTABLENAME.php" />
+    <None Include="bin\Debug\Templates\mysql\6Ago2012\pgTABLENAME_q.php" />
+    <None Include="bin\Debug\Templates\mysql\oTABLENAME.vm" />
+    <None Include="bin\Debug\Templates\mysql\pgTABLENAME.php" />
+    <None Include="bin\Release\TemplateGenerator.vshost.exe.manifest" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\ResGen.read.1.tlog" />
+    <None Include="obj\Debug\ResGen.write.1.tlog" />
+    <None Include="obj\Debug\TemplateGenerator.csproj.GenerateResource.Cache" />
+    <None Include="obj\Debug\TemplateGenerator.csprojResolveAssemblyReference.cache" />
+    <None Include="obj\Release\build.force" />
+    <None Include="obj\Release\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Release\GenerateResource-ResGen.read.1.tlog" />
+    <None Include="obj\Release\GenerateResource-ResGen.write.1.tlog" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="bin\Debug\Templates\mssql\1sep2013\pgTABLENAME.aspx" />
+    <Content Include="bin\Debug\Templates\mssql\1sep2013\TABLENAME_DEL.sql" />
+    <Content Include="bin\Debug\Templates\mssql\1sep2013\TABLENAME_INS.sql" />
+    <Content Include="bin\Debug\Templates\mssql\1sep2013\TABLENAME_SEL.sql" />
+    <Content Include="bin\Debug\Templates\mssql\1sep2013\TABLENAME_UPD.sql" />
+    <Content Include="bin\Debug\Templates\mssql\1sep2013\vcTABLENAME.js" />
+    <Content Include="bin\Debug\Templates\mssql\25Oct2012\pgTABLENAME.aspx" />
+    <Content Include="bin\Debug\Templates\mssql\25Oct2012\vcTABLENAME.js" />
+    <Content Include="bin\Debug\Templates\mssql\3Abr2013\pgTABLENAME - copia.aspx" />
+    <Content Include="bin\Debug\Templates\mssql\3Abr2013\pgTABLENAME.aspx" />
+    <Content Include="bin\Debug\Templates\mssql\3Abr2013\pgTABLENAME_Q.aspx" />
+    <Content Include="bin\Debug\Templates\mssql\3Abr2013\TABLENAME_DEL.sql" />
+    <Content Include="bin\Debug\Templates\mssql\3Abr2013\TABLENAME_INS.sql" />
+    <Content Include="bin\Debug\Templates\mssql\3Abr2013\TABLENAME_SEL.sql" />
+    <Content Include="bin\Debug\Templates\mssql\3Abr2013\TABLENAME_UPD - copia.sql" />
+    <Content Include="bin\Debug\Templates\mssql\3Abr2013\TABLENAME_UPD.sql" />
+    <Content Include="bin\Debug\Templates\mssql\3Abr2013\vcTABLENAME - copia.js" />
+    <Content Include="bin\Debug\Templates\mssql\3Abr2013\vcTABLENAME.js" />
+    <Content Include="bin\Debug\Templates\mssql\3Abr2013\vcTABLENAME_Q.js" />
+    <Content Include="bin\Debug\Templates\mssql\3Abr2013\vcTABLENAME_TL.js" />
+    <Content Include="bin\Debug\Templates\mssql\pgTABLENAME.aspx" />
+    <Content Include="bin\Debug\Templates\mssql\TABLENAME_DEL.sql" />
+    <Content Include="bin\Debug\Templates\mssql\TABLENAME_INS.sql" />
+    <Content Include="bin\Debug\Templates\mssql\TABLENAME_SEL.sql" />
+    <Content Include="bin\Debug\Templates\mssql\TABLENAME_UPD.sql" />
+    <Content Include="bin\Debug\Templates\mssql\vcTABLENAME.full.js" />
+    <Content Include="bin\Debug\Templates\mssql\vcTABLENAME.js" />
+    <Content Include="bin\Debug\Templates\mysql\6Ago2012\TABLENAME_DEL.sql" />
+    <Content Include="bin\Debug\Templates\mysql\6Ago2012\TABLENAME_INS.sql" />
+    <Content Include="bin\Debug\Templates\mysql\6Ago2012\TABLENAME_SEL.sql" />
+    <Content Include="bin\Debug\Templates\mysql\6Ago2012\TABLENAME_UPD.sql" />
+    <Content Include="bin\Debug\Templates\mysql\6Ago2012\vcTABLENAME.js" />
+    <Content Include="bin\Debug\Templates\mysql\6Ago2012\vcTABLENAME_q.js" />
+    <Content Include="bin\Debug\Templates\mysql\TABLENAME_DEL.sql" />
+    <Content Include="bin\Debug\Templates\mysql\TABLENAME_INS.sql" />
+    <Content Include="bin\Debug\Templates\mysql\TABLENAME_SEL.sql" />
+    <Content Include="bin\Debug\Templates\mysql\TABLENAME_UPD.sql" />
+    <Content Include="bin\Debug\Templates\mysql\vcTABLENAME.full.js" />
+    <Content Include="bin\Debug\Templates\mysql\vcTABLENAME.js" />
+    <Content Include="bin\Release\TemplateGenerator.vshost.exe" />
+    <Content Include="obj\Debug\TemplateGenerator %28Copia en conflicto de zeo_pc-PC 2014-02-01%29.pdb" />
+    <Content Include="obj\Debug\TemplateGenerator.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\TemplateGenerator.exe" />
+    <Content Include="obj\Debug\TemplateGenerator.pdb" />
+    <Content Include="obj\Debug\TempPE\Properties.Resources.Designer.cs.dll" />
+    <Content Include="obj\Release\TemplateGenerator.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Release\TempPE\Properties.Resources.Designer.cs.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

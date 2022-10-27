@@ -1,0 +1,27 @@
+Hi $name $surname, this output has been generated from a $templateType template on $date.
+
+Nombre de la tabla $nombretabla
+Este es el modelo de datos contiene $DataModel.Rows.Count columnas
+Las columnas son las siguientes:
+#foreach ( $element in $DataModel.Columns)
+    Columnas: $element  $velocityCount
+#end
+
+$DataModel.Rows
+$DataModel.Rows.Count
+#foreach ( $element in $DataModel.Rows)
+Nombre  :                  $element.column_name 
+Ordinal                    $element.ordinal_position
+defaul:                    $element.column_default
+null?                      $element.is_nullable
+type                       $element.data_type
+charac                     $element.character_maximum_length
+precision                  $element.numeric_precision
+scale                      $element.numeric_scale
+character_octet_length     $element.character_octet_length
+column_key                 $element.column_key
+extra                      $element.extra
+---------------------------------------------------------------
+#end
+
+Listo toda la informacion
