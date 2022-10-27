@@ -109,7 +109,6 @@ namespace TemplateGenerator
             while (dr.Read())
             {
                 lsInTable.Items.Add(dr[0]);
-                //lsInTable.Items.Add("Test");
             }
             conn.Close();
         }
