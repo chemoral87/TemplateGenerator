@@ -32,6 +32,10 @@
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.removeAll = new System.Windows.Forms.Button();
+            this.addAll = new System.Windows.Forms.Button();
+            this.button16 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
             this.txtFiltro = new System.Windows.Forms.TextBox();
             this.label29 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
@@ -43,9 +47,9 @@
             this.rBtnTable = new System.Windows.Forms.RadioButton();
             this.cmbFolder = new System.Windows.Forms.ComboBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button11 = new System.Windows.Forms.Button();
+            this.remove = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
+            this.add = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.btnGenerate = new System.Windows.Forms.Button();
@@ -163,6 +167,10 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.removeAll);
+            this.tabPage1.Controls.Add(this.addAll);
+            this.tabPage1.Controls.Add(this.button16);
+            this.tabPage1.Controls.Add(this.button6);
             this.tabPage1.Controls.Add(this.txtFiltro);
             this.tabPage1.Controls.Add(this.label29);
             this.tabPage1.Controls.Add(this.label28);
@@ -172,9 +180,9 @@
             this.tabPage1.Controls.Add(this.groupBox3);
             this.tabPage1.Controls.Add(this.cmbFolder);
             this.tabPage1.Controls.Add(this.dataGridView1);
-            this.tabPage1.Controls.Add(this.button11);
+            this.tabPage1.Controls.Add(this.remove);
             this.tabPage1.Controls.Add(this.button10);
-            this.tabPage1.Controls.Add(this.button9);
+            this.tabPage1.Controls.Add(this.add);
             this.tabPage1.Controls.Add(this.button8);
             this.tabPage1.Controls.Add(this.button7);
             this.tabPage1.Controls.Add(this.btnGenerate);
@@ -212,6 +220,46 @@
             this.tabPage1.Text = "Tables";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
+            // removeAll
+            // 
+            this.removeAll.Location = new System.Drawing.Point(719, 215);
+            this.removeAll.Name = "removeAll";
+            this.removeAll.Size = new System.Drawing.Size(30, 32);
+            this.removeAll.TabIndex = 80;
+            this.removeAll.Text = "<<";
+            this.removeAll.UseVisualStyleBackColor = true;
+            this.removeAll.Click += new System.EventHandler(this.removeAll_Click);
+            // 
+            // addAll
+            // 
+            this.addAll.Location = new System.Drawing.Point(719, 177);
+            this.addAll.Name = "addAll";
+            this.addAll.Size = new System.Drawing.Size(30, 32);
+            this.addAll.TabIndex = 79;
+            this.addAll.Text = ">>";
+            this.addAll.UseVisualStyleBackColor = true;
+            this.addAll.Click += new System.EventHandler(this.addAll_Click);
+            // 
+            // button16
+            // 
+            this.button16.Location = new System.Drawing.Point(854, 12);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(75, 23);
+            this.button16.TabIndex = 78;
+            this.button16.Text = "Open";
+            this.button16.UseVisualStyleBackColor = true;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(854, 41);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(75, 23);
+            this.button6.TabIndex = 77;
+            this.button6.Text = "Open";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click_1);
+            // 
             // txtFiltro
             // 
             this.txtFiltro.Location = new System.Drawing.Point(222, 87);
@@ -229,7 +277,6 @@
             this.label29.Size = new System.Drawing.Size(32, 13);
             this.label29.TabIndex = 75;
             this.label29.Text = "Filtro:";
-            this.label29.Click += new System.EventHandler(this.label29_Click);
             // 
             // label28
             // 
@@ -239,7 +286,6 @@
             this.label28.Size = new System.Drawing.Size(59, 13);
             this.label28.TabIndex = 74;
             this.label28.Text = "Sub Table:";
-            this.label28.Click += new System.EventHandler(this.label28_Click);
             // 
             // lsSubTables
             // 
@@ -302,7 +348,7 @@
             // cmbFolder
             // 
             this.cmbFolder.FormattingEnabled = true;
-            this.cmbFolder.Location = new System.Drawing.Point(839, 12);
+            this.cmbFolder.Location = new System.Drawing.Point(759, 12);
             this.cmbFolder.Name = "cmbFolder";
             this.cmbFolder.Size = new System.Drawing.Size(90, 21);
             this.cmbFolder.TabIndex = 69;
@@ -316,15 +362,15 @@
             this.dataGridView1.Size = new System.Drawing.Size(1061, 324);
             this.dataGridView1.TabIndex = 67;
             // 
-            // button11
+            // remove
             // 
-            this.button11.Location = new System.Drawing.Point(719, 232);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(30, 32);
-            this.button11.TabIndex = 66;
-            this.button11.Text = "<";
-            this.button11.UseVisualStyleBackColor = true;
-            this.button11.Click += new System.EventHandler(this.button11_Click);
+            this.remove.Location = new System.Drawing.Point(719, 253);
+            this.remove.Name = "remove";
+            this.remove.Size = new System.Drawing.Size(30, 32);
+            this.remove.TabIndex = 66;
+            this.remove.Text = "<";
+            this.remove.UseVisualStyleBackColor = true;
+            this.remove.Click += new System.EventHandler(this.button11_Click);
             // 
             // button10
             // 
@@ -336,15 +382,15 @@
             this.button10.UseVisualStyleBackColor = true;
             this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
-            // button9
+            // add
             // 
-            this.button9.Location = new System.Drawing.Point(719, 156);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(30, 32);
-            this.button9.TabIndex = 64;
-            this.button9.Text = ">";
-            this.button9.UseVisualStyleBackColor = true;
-            this.button9.Click += new System.EventHandler(this.button9_Click);
+            this.add.Location = new System.Drawing.Point(719, 139);
+            this.add.Name = "add";
+            this.add.Size = new System.Drawing.Size(30, 32);
+            this.add.TabIndex = 64;
+            this.add.Text = ">";
+            this.add.UseVisualStyleBackColor = true;
+            this.add.Click += new System.EventHandler(this.button9_Click);
             // 
             // button8
             // 
@@ -481,12 +527,11 @@
             this.rBtMSSQL.TabIndex = 34;
             this.rBtMSSQL.Text = "MSSQL";
             this.rBtMSSQL.UseVisualStyleBackColor = true;
-            this.rBtMSSQL.CheckedChanged += new System.EventHandler(this.rBtMSSQL_CheckedChanged);
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(498, 46);
+            this.label7.Location = new System.Drawing.Point(472, 46);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(27, 13);
             this.label7.TabIndex = 51;
@@ -495,7 +540,7 @@
             // sdfer
             // 
             this.sdfer.AutoSize = true;
-            this.sdfer.Location = new System.Drawing.Point(466, 15);
+            this.sdfer.Location = new System.Drawing.Point(440, 15);
             this.sdfer.Name = "sdfer";
             this.sdfer.Size = new System.Drawing.Size(59, 13);
             this.sdfer.TabIndex = 50;
@@ -503,23 +548,23 @@
             // 
             // tTemplateOut
             // 
-            this.tTemplateOut.Location = new System.Drawing.Point(531, 43);
+            this.tTemplateOut.Location = new System.Drawing.Point(505, 43);
             this.tTemplateOut.Name = "tTemplateOut";
-            this.tTemplateOut.Size = new System.Drawing.Size(271, 20);
+            this.tTemplateOut.Size = new System.Drawing.Size(218, 20);
             this.tTemplateOut.TabIndex = 49;
             this.tTemplateOut.Text = "C:\\Out";
             // 
             // tTemplate
             // 
-            this.tTemplate.Location = new System.Drawing.Point(531, 12);
+            this.tTemplate.Location = new System.Drawing.Point(505, 12);
             this.tTemplate.Name = "tTemplate";
-            this.tTemplate.Size = new System.Drawing.Size(271, 20);
+            this.tTemplate.Size = new System.Drawing.Size(218, 20);
             this.tTemplate.TabIndex = 48;
             this.tTemplate.Text = "C:\\Templates\\mssql";
             // 
             // bOut
             // 
-            this.bOut.Location = new System.Drawing.Point(808, 39);
+            this.bOut.Location = new System.Drawing.Point(728, 39);
             this.bOut.Name = "bOut";
             this.bOut.Size = new System.Drawing.Size(25, 23);
             this.bOut.TabIndex = 47;
@@ -529,7 +574,7 @@
             // 
             // bTemplate
             // 
-            this.bTemplate.Location = new System.Drawing.Point(808, 10);
+            this.bTemplate.Location = new System.Drawing.Point(728, 10);
             this.bTemplate.Name = "bTemplate";
             this.bTemplate.Size = new System.Drawing.Size(25, 23);
             this.bTemplate.TabIndex = 46;
@@ -560,7 +605,7 @@
             // 
             this.btnConnect.Location = new System.Drawing.Point(357, 12);
             this.btnConnect.Name = "btnConnect";
-            this.btnConnect.Size = new System.Drawing.Size(103, 56);
+            this.btnConnect.Size = new System.Drawing.Size(70, 54);
             this.btnConnect.TabIndex = 43;
             this.btnConnect.Text = "Probar &Conexión";
             this.btnConnect.UseVisualStyleBackColor = true;
@@ -913,7 +958,6 @@
             this.bvConnect.TabIndex = 75;
             this.bvConnect.Text = "Probar Conexión";
             this.bvConnect.UseVisualStyleBackColor = true;
-            this.bvConnect.Click += new System.EventHandler(this.bvConnect_Click);
             // 
             // label23
             // 
@@ -1068,7 +1112,6 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(185, 20);
             this.textBox3.TabIndex = 16;
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // button1
             // 
@@ -1235,9 +1278,9 @@
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button remove;
         private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button add;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button btnGenerate;
@@ -1337,6 +1380,10 @@
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label29;
         private System.Windows.Forms.TextBox txtFiltro;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button16;
+        private System.Windows.Forms.Button removeAll;
+        private System.Windows.Forms.Button addAll;
     }
 }
 

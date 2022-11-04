@@ -6,9 +6,10 @@ ${model}
 
 // App\Http\\${modelPascal}Controller.php
 use App\Models\\${modelPascal};
+use Illuminate\Http\Request;
 
   public function index(Request $request) {
-    $query = queryServerSide($request, ${modelPascal});
+    $query = queryServerSide($request, new ${modelPascal}());
     $${nombretabla} = $query->paginate($request->get('itemsPerPage'));
     return new DataSetResource($${nombretabla});
   }

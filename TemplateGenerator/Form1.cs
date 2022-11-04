@@ -535,15 +535,7 @@ namespace TemplateGenerator
             }
         }
 
-        private void button9_Click(object sender, EventArgs e)
-        {
-            int index = lsInTemplate.SelectedIndex;
-            if (index > -1)
-            {
-                lsOutTemplate.Items.Add(lsInTemplate.Items[index]);
-                lsInTemplate.Items.RemoveAt(index);
-            }
-        }
+       
 
 
 
@@ -557,15 +549,7 @@ namespace TemplateGenerator
             }
         }
 
-        private void button11_Click(object sender, EventArgs e)
-        {
-            int index = lsOutTemplate.SelectedIndex;
-            if (index > -1)
-            {
-                lsInTemplate.Items.Add(lsOutTemplate.Items[index]);
-                lsOutTemplate.Items.RemoveAt(index);
-            }
-        }
+      
 
         private void lsOutTable_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -671,40 +655,65 @@ namespace TemplateGenerator
           }
           return false;
         }
-
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void bvConnect_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label28_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label29_Click(object sender, EventArgs e)
-        {
-
-        }
+               
 
         private void txtFiltro_KeyUp(object sender, KeyEventArgs e)
         {
           connection();
         }
 
-        private void rBtMSSQL_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void txtFiltro_TextChanged(object sender, EventArgs e)
         {
             getTablesMySQL();
+        }
+
+        private void button6_Click_1(object sender, EventArgs e)
+        {
+            string folder = tTemplateOut.Text;
+            System.Diagnostics.Process.Start("explorer.exe", folder);
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            string folder = tTemplate.Text;
+            System.Diagnostics.Process.Start("explorer.exe", folder);
+        }
+
+        private void addAll_Click(object sender, EventArgs e)
+        {
+            foreach( var item in lsInTemplate.Items)
+            {
+                lsOutTemplate.Items.Add(item);
+            }
+            lsInTemplate.Items.Clear();
+        }
+        private void button9_Click(object sender, EventArgs e)
+        {
+            int index = lsInTemplate.SelectedIndex;
+            if (index > -1)
+            {
+                lsOutTemplate.Items.Add(lsInTemplate.Items[index]);
+                lsInTemplate.Items.RemoveAt(index);
+            }
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            int index = lsOutTemplate.SelectedIndex;
+            if (index > -1)
+            {
+                lsInTemplate.Items.Add(lsOutTemplate.Items[index]);
+                lsOutTemplate.Items.RemoveAt(index);
+            }
+        }
+
+        private void removeAll_Click(object sender, EventArgs e)
+        {
+            foreach (var item in lsOutTemplate.Items)
+            {
+                lsInTemplate.Items.Add(item);
+            }
+            lsOutTemplate.Items.Clear();
         }
     }
 }
